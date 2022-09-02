@@ -38,4 +38,8 @@ public EntryAdPage clickEntryAd(){
         clickLink("Entry Ad");
         return new EntryAdPage(driver);
 }
+public FileUploadPage clickFileUploadPage(){
+        clickLink("File Upload");
+        return new FileUploadPage(driver);
+}
 }
